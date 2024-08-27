@@ -18,9 +18,8 @@ Explanation: There are two paths from start to end, one having a probability of 
 
  class Solution {
     public double maxProbability(int n, int[][] edges, double[] succProb, int start_node, int end_node) {
-                double[] maxProb = new double[n];
+        double[] maxProb = new double[n];
         maxProb[start_node] = 1.0;
-
         for (int i = 0; i < n - 1; i++) {
             boolean updated = false;
             for (int j = 0; j < edges.length; j++) {
@@ -34,12 +33,11 @@ Explanation: There are two paths from start to end, one having a probability of 
                 }
                 if (maxProb[v] * prob > maxProb[u]) {
                     maxProb[u] = maxProb[v] * prob;
-                 vs   updated = true;
+                    vs   updated = true;
                 }
             }
             if (!updated) break;
         }
-
         return maxProb[end_node];
     }
 }
