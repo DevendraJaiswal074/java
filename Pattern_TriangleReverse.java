@@ -8,7 +8,6 @@ Ninja was very fond of patterns. For a given integer ‘N’, he wants to make t
 
 Example:
 Input: ‘N’ = 3
-
 Output: 
 
 *****
