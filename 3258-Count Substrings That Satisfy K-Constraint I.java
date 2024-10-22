@@ -9,38 +9,6 @@ Return an integer denoting the number of
 substrings
  of s that satisfy the k-constraint.
 
- 
-
-Example 1:
-
-Input: s = "10101", k = 1
-
-Output: 12
-
-Explanation:
-
-Every substring of s except the substrings "1010", "10101", and "0101" satisfies the k-constraint.
-
-Example 2:
-
-Input: s = "1010101", k = 2
-
-Output: 25
-
-Explanation:
-
-Every substring of s except the substrings with a length greater than 5 satisfies the k-constraint.
-
-Example 3:
-
-Input: s = "11111", k = 1
-
-Output: 15
-
-Explanation:
-
-All substrings of s satisfy the k-constraint.
-
  */
 
  class Solution {
@@ -69,3 +37,17 @@ All substrings of s satisfy the k-constraint.
 	return sum;
     }
 }
+
+/*
+Example 1:
+
+Input: s = "10101", k = 1
+
+Output: 12
+
+Example 2:
+
+Input: s = "1010101", k = 2
+
+Output: 25
+ */
