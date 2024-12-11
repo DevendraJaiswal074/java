@@ -7,13 +7,16 @@
 
 class Pairs_array {
     public static void main(String[] args) {
-        int array[] = { 2,4,6,8,10};
+        int array[] = {2,4,6,8,10};
+        int total_pair = 0;
 
         for (int i = 0; i < array.length; i++) {
             for (int j = i; j < array.length-1; j++) {
                 System.out.printf("(%d,%d) ",array[i],array[j+1]);
+                total_pair++;
             }
             System.out.println();
         }
+        System.out.println("total number of pair are : "+ total_pair);
     }
 }
