@@ -7,9 +7,9 @@ public class Twice_true_false {
     public static boolean checkTwice(int arr[]){
 
         for (int i = 0; i < arr.length; i++) {
-            int c_value = arr[i];
+            // int c_value = arr[i];
             for (int j = i+1; j < arr.length; j++) {
-                if (c_value == arr[j]) {
+                if (arr[i] == arr[j]) {
                     return true;
                 }
             }
