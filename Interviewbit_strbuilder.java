@@ -8,7 +8,6 @@
 // You need to reverse the substring starting at index L and ending at index R in String S, and finally return the final string.
 
 
-import java.lang.*;
 import java.util.*;
 
 public class Interviewbit_strbuilder {

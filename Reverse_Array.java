@@ -1,5 +1,3 @@
-import java.nio.channels.Pipe.SourceChannel;
-
 public class Reverse_Array {
 
     public static void reverse(int array[]) {  // function to swap number
@@ -29,6 +27,6 @@ public class Reverse_Array {
         for (int i = 0; i < array.length; i++) {
             System.out.printf("Array[%d][%d] \n", i, array[i]);
         }
-
+        
     }
 }

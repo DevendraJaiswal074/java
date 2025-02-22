@@ -21,5 +21,7 @@ public class Tax_calculation {
         }
 
         System.out.println("tax equal to ="+tax);
+
+        scan.close();
     }
 }

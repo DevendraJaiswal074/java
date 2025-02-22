@@ -12,5 +12,6 @@ public class Postive_and_negative {
         else{
             System.out.println(user +" is postive number");
         }
+        scan.close();
     }
 }

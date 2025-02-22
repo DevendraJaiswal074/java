@@ -9,5 +9,6 @@ public class Ternary {
         
         String test = (user%2==0)?"even":"odd";
         System.out.println("result are : "+ test);
+        scan.close();
     }
 }

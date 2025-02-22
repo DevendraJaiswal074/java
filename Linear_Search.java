@@ -23,5 +23,6 @@ public class Linear_Search {
         }
 
         search(array,key);
+        scan.close();
     }
 }

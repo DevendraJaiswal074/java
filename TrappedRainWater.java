@@ -47,5 +47,6 @@ public class TrappedRainWater {
         }
 
         trapped_water(arr);
+        scan.close();
     }
 }

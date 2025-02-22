@@ -29,6 +29,7 @@ public class Twice_true_false {
             arr[i] = scan.nextInt();
         }
         System.out.println(checkTwice(arr));
+        scan.close();
 
     }
 }

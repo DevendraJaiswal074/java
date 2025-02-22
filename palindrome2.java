@@ -21,5 +21,6 @@ public class palindrome2 {
         } else {
             System.out.println("not a palindrome number");
         }
+        scan.close();
     }
 }

@@ -32,6 +32,7 @@ public class StockProfit {
         }
 
         cal_profit(arr);
+        scan.close();
 
     }
 }

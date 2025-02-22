@@ -1,6 +1,6 @@
 //Check if an array is sorted(stricly increase)
 
-import java.util.*;
+
 public class Recursion_boolean_sort {
     public static boolean isSorted(int array[],int index) {
         if (index == array.length-1) {

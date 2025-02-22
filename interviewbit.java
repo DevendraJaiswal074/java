@@ -1,5 +1,3 @@
-package hackerrank;
-
 // Given an integer M perform the following conditional actions:
 
 // If M is multiple of 3 and 5 then print "Good Number" (without quotes).

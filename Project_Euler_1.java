@@ -1,10 +1,6 @@
 // https://www.hackerrank.com/contests/projecteuler/challenges/euler001/problem?isFullScreen=true
 
-import java.io.*;
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
 
 public class Project_Euler_1 {
 
@@ -21,5 +17,6 @@ public class Project_Euler_1 {
             }
             System.out.println(sum);
         }
+        in.close();
     }
 }
