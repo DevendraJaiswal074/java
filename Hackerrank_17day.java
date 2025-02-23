@@ -3,7 +3,6 @@
 // Note: Do not use an access modifier (e.g.: public) in the declaration for your  Calculator class.
 
 import java.util.*;
-import java.io.*;
 
 class Calculator {
     public int power(int n,int p) throws Exception{

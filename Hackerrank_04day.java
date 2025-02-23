@@ -8,9 +8,6 @@
 * Otherwise, print You are old..
  */
 
-
-import java.io.*;
-import java.util.*;
 import java.util.Scanner;
 
 public class Hackerrank_04day {

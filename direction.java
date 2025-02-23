@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class direction {
     public static float dir(String str){
         int x=0,y=0;

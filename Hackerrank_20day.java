@@ -11,11 +11,7 @@ where numSwaps is the number of swaps that took place.
   Hint: To complete this challenge, you will need to add a variable that keeps a running tally of all swaps that occur during execution.
 
  */
-import java.io.*;
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
 
 public class Hackerrank_20day {
 

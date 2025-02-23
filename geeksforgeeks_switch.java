@@ -8,7 +8,7 @@ Note : A list arr[], containing the single value R or the two values L and B, as
 
 */
 
-
+import java.util.List;
 
 class geeksforgeeks_switch{
     static double switchCase(int choice, List<Double> arr){

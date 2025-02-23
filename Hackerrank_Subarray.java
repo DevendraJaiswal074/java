@@ -3,7 +3,6 @@
 // An array’s sum is negative if the total sum of its elements is negative.
 // An array’s sum is positive if the total sum of its elements is positive.
 
-import java.io.*;
 import java.util.*;
 
 public class Hackerrank_Subarray {
@@ -31,6 +30,7 @@ public class Hackerrank_Subarray {
             }
         }
         System.out.print(c);
+        sc.close();
     }
     
 }

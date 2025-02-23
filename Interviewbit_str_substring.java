@@ -1,6 +1,5 @@
 // Given a string A and two indices L and R print a substring consisting of all characters in the inclusive range from L to R. You'll find the String class' substring method helpful in completing this challenge.
 
-import java.lang.*;
 import java.util.*;
 
 public class Interviewbit_str_substring {

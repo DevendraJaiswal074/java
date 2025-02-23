@@ -20,7 +20,7 @@ Output: 1
  */
 
 public class Insert_index {
-    public static void main(String[] args) {
+    public static int main(String[] args) {
         int[] nums = {1,2,3,4,6};
         int target = 5;
 

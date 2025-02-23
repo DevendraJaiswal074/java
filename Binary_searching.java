@@ -35,5 +35,6 @@ public class Binary_searching {
         }
 
         search(array, key);
+        scan.close();
     }
 }

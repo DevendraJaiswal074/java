@@ -1,6 +1,4 @@
 // Take N integers as an input and store them in an array and then print the array in reverse format.
-package pratice.old;
-
 
 //import java.lang.*;
 import java.util.*;

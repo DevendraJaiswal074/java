@@ -4,7 +4,6 @@
 // Determine if A is lexicographically larger than B (i.e.: does B come before A in the dictionary?).
 // Capitalize the complete string A and B and print them on a single line, separated by a space.
 
-import java.lang.*;
 import java.util.*;
 
 public class Interviewbit_str {

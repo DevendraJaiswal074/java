@@ -6,8 +6,6 @@
 
 // The given code take two integers as input and print their sum and multiplication on separate lines.
 
-package hackerrank;
-
 import java.util.Scanner;
 
 public class interviewbit_method {

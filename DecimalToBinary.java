@@ -24,5 +24,6 @@ public class DecimalToBinary {
         System.out.print("Decimal value = ");
         int user = scan.nextInt();
         DecToBin(user);
+        scan.close();
     }
 }

@@ -1,6 +1,6 @@
 // Given an integer n as an input print the numbers from 1 to n in separate lines.
 
-package hackerrank;
+ 
 
 // import java.lang.*;
 import java.util.*;

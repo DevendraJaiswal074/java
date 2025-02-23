@@ -22,5 +22,6 @@ public class Array_largest_value {
         }
 
         largest_value(array);
+        scan.close();
     }
 }

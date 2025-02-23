@@ -35,7 +35,7 @@ Explanation 1:
  Sum of elements of third column : 1 + 3 + 1 = 5
  Sum of elements of fourth column : 3 + 4 + 2 = 9
  */
-package pratice.old;
+
 import java.util.*;
 
 public class Interviewbit_matrix {

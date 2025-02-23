@@ -8,7 +8,6 @@
 
 //  54
 
-import java.lang.*;
 import java.util.*;
 import java.math.BigInteger;
 public class Interviewbit_Biginteger {

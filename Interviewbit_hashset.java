@@ -20,7 +20,6 @@
 
 // Print a single integer denoting the total number of unique elements in that array A.
 
-import java.lang.*;
 import java.util.*;
 
 public class Interviewbit_hashset {
