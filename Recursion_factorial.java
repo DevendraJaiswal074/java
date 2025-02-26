@@ -3,9 +3,10 @@
 import java.util.*;
 
 public class Recursion_factorial {
+
     public static int print_factorial(int user) {
         if (user == 1 || user == 0) {
-            return 1;                      // if factorial = 0 then print 1 because 0 value is 1.
+            return 1;         // if factorial = 0 then print 1 because 0 value is 1.
         }
         int fact1= print_factorial(user-1);
         int fact2 = user*fact1;
