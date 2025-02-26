@@ -6,7 +6,7 @@ public class Recursion {
             return;
         }
         System.out.println(n);    // print the value which are store and replace when function is called 
-        Print_Number(n-1);        // n-1 is decrese the value by 1
+        Print_Number(n-1);        // n-1 is decrese the value by 1 
     }
     public static void main(String[] args) {
         int number = 5;
