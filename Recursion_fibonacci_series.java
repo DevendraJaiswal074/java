@@ -1,7 +1,6 @@
 //print fabonacci series number 
 
 import java.util.Scanner;
-
 public class Recursion_fibonacci_series {
     public static void Print_Fibonacci(int a,int b,int user) {
         if (user == 0) {
