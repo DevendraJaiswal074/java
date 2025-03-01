@@ -1,4 +1,3 @@
-package HackerRank;
 // https://www.hackerrank.com/contests/projecteuler/challenges/euler001/problem?isFullScreen=true
 
 import java.util.*;
