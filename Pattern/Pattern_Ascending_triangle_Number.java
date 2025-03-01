@@ -1,3 +1,4 @@
+package Pattern;
 /*
 
 https://www.naukri.com/code360/problems/reverse-number-triangle_6581889?utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_patternproblems

@@ -1,3 +1,4 @@
+package Pattern;
 // https://www.naukri.com/code360/problems/n-forest_6570177?utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_patternproblems
 
 /* 

@@ -1,3 +1,4 @@
+package Pattern;
 /* 
 Problem statement
 Send feedback
