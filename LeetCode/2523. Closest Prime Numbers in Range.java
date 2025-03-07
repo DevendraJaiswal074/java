@@ -1,5 +1,7 @@
 //https://leetcode.com/problems/closest-prime-numbers-in-range/description/?envType=daily-question&envId=2025-03-07
 
+import java.util.Arrays;
+
 class Solution {
     public int[] closestPrimes(int left, int right) {
         // O(R log(logR) + R-L)
