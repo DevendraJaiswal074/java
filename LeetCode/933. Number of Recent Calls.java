@@ -7,25 +7,28 @@
 // import java.util.ArrayList;
 // import java.util.List;
 
-class RecentCounter {
-    List<Integer> list;
-    int i;
+// class RecentCounter {
+//     List<Integer> list;
+//     int i;
 
-    public RecentCounter() {
-        list = new ArrayList();
-        i =0;
-    }
+//     public RecentCounter() {
+//         list = new ArrayList();
+//         i =0;
+//     }
     
-    public int ping(int t) {
-        list.add(t);
-        while (t-3000 > list.get(i) ) {
-            i++;
-        }
-        return list.size()-i;
-    }
-}
+//     public int ping(int t) {
+//         list.add(t);
+//         while (t-3000 > list.get(i) ) {
+//             i++;
+//         }
+//         return list.size()-i;
+//     }
+// }
 
 // Method second 
+
+import java.util.LinkedList;
+import java.util.Queue;
 
 class RecentCounter {
 
@@ -38,9 +41,9 @@ class RecentCounter {
     public int ping(int t) {
         queue.add(t);
         while(!queue.isEmpty() && t - 3000 > queue.peek()){
-            queue.pop();
+            queue.poll();
         }
-        return queue.size;
+        return queue.size();
     }
 }
 
