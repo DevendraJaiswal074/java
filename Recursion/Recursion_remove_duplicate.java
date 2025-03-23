@@ -5,13 +5,13 @@ package Recursion;
 
 public class Recursion_remove_duplicate {
     public static void main(String[] args) {
-        String str = "hello";
+        String str = "hellohelllootyooorpprrrr";
         System.out.println("Original String: " + str);
         System.out.println("Modified String: " + removeDuplicates(str, ""));
     }
 
     public static String removeDuplicates(String str, String result) {
-        if (str.length() == 0) {
+        if (str.length() == 0) {   // based case
             return result;
         }
 
@@ -20,6 +20,14 @@ public class Recursion_remove_duplicate {
             result += ch;
         }
 
-        return removeDuplicates(str.substring(1), result);
+        // calling function with substring of 1.
+        // str = abcddea
+        return removeDuplicates(str.substring(1), result); 
+        /* now str = bcddea -at the 1st calling
+           str = cddea  - 2nd calling of function.....
+
+           result = a
+           result = ab....
+        */
     }
 }
