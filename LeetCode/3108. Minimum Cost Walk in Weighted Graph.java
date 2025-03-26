@@ -1,5 +1,7 @@
 //https://leetcode.com/problems/minimum-cost-walk-in-weighted-graph/description/?envType=daily-question&envId=2025-03-20
 
+import java.util.Arrays;
+
 class DSU {
     int rank[];
     int parent[];
