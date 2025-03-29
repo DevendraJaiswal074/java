@@ -1,5 +1,10 @@
 //https://leetcode.com/problems/unique-number-of-occurrences/description/?envType=study-plan-v2&envId=leetcode-75
 
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+
 class Solution {
     public boolean uniqueOccurrences(int[] arr) {
     Map<Integer, Integer> count = new HashMap<>();
