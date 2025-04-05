@@ -30,4 +30,39 @@ class Solution {
         }
         return result;
     }
-} */
+} 
+    
+//Approach-2 (Using optimal backtracking)
+//T.C : O(2^n)
+//S.C : O(n)
+class Solution {
+
+    private int solve(int i, int[] nums, int Xor) {
+        if (i == nums.length) {
+            return Xor;
+        }
+
+        int include = solve(i + 1, nums, nums[i] ^ Xor);
+        int exclude = solve(i + 1, nums, Xor);
+
+        return include + exclude;
+    }
+
+    public int subsetXORSum(int[] nums) {
+        return solve(0, nums, 0);
+    }
+}
+
+//Approach-3 (Observing pattern)
+class Solution {
+    public int subsetXORSum(int[] nums) {
+        int n = nums.length;
+        int result = 0;
+
+        for (int num : nums) {
+            result |= num;
+        }
+
+        return result << (n - 1);
+    }
+*/
