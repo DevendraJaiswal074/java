@@ -1,5 +1,6 @@
 //https://leetcode.com/problems/move-zeroes/description/?envType=study-plan-v2&envId=leetcode-75
 
+/* 
 class Solution {
     public void moveZeroes(int[] nums) {
         
@@ -20,3 +21,22 @@ class Solution {
         }
     }
 }
+
+class Solution {
+    public void moveZeroes(int[] nums) {
+        // Arrays.sort(nums);
+        int countRound = 0;
+
+        for(int i = 0; i <nums.length ; i++){
+            if(nums[i] == 0){
+                countRound++;
+            }
+            else if(countRound>0){
+                int temp = nums[i];
+                nums[i] = 0;
+                nums[i-countRound] = temp;
+            }
+        }
+    }
+}
+*/
