@@ -49,7 +49,7 @@ class Solution {
     }
 }
 
-#second aproach
+#second approach
 
 class Solution {
     public List<Integer> spiralOrder(int[][] matrix) {
