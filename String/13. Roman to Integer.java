@@ -2,7 +2,7 @@ package String;
 
 // https://leetcode.com/problems/roman-to-integer/description/?envType=problem-list-v2&envId=string
 
-class Solution {
+class Solution { 
     public int romanToInt(String s) {
 
         int total = 0;
