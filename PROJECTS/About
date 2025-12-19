@@ -1,0 +1,49 @@
+Build a Java console application that allows teachers or administrators to manage student report cards. The system supports adding student records, entering subject-wise scores, calculating averages and grades, and displaying report cards. It includes search functionality  name or ID, data persistence using file I/O, and robust error handling. 
+
+Description
+
+How to Approach
+Create a Student Report Card Management System as a Java console application. The program allows users (teachers or administrators) to manage student records, add subject-wise marks, compute grades, and generate formatted report cards. It demonstrates core Java concepts like OOP, file I/O, data structures, and exception handling.
+Functional Requirements
+
+1. Input:
+Prompt the user to add a new student with a unique ID, name, and age.
+Allow the user to enter marks for multiple subjects for each student.
+Provide options to search students by ID or name.
+
+2. Output:
+Display all student records.
+Show a formatted report card for a selected student, including:
+Student details
+List of subjects and corresponding marks
+Total, average, and grade (A/B/C/D/F based on average score)
+
+3. Grade Calculation:
+A (90-100)
+B (80-89)
+C (70-79)
+D (60-69)
+F (<60)
+
+4. Data Persistence:
+Save all student records to a text file.
+Load saved data automatically on program startup.
+Append new entries without overwriting existing data.
+
+5. Error Handling:
+Validate user inputs (e.g., marks between 0-100, positive age values).
+Handle invalid input and file I/O exceptions using try-catch blocks.
+
+6. Program Flow:
+Show a main menu with options to:
+Add a new student
+Enter marks
+View report cards
+Search for students
+Exit
+Loop the menu until the user chooses to exit.
+
+7. Dependencies:
+Use Java core libraries (java.util, java.io).
+Use ArrayList and arrays for managing student data in memory.
+Java 8 features like lambda expressions or streams (optional, if applicable).
