@@ -1,4 +1,4 @@
-package Array;
+
 /*
  * print sub array 
   2 

@@ -1,4 +1,4 @@
-package Array;
+
 import java.util.Scanner;
 
 public class Array_largest_value {

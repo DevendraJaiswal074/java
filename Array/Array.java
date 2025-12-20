@@ -1,4 +1,4 @@
-package Array;
+
 //Take an array as input from user. Search for a given number X and print the index at which it occure.
 
 import java.util.*;

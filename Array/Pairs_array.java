@@ -1,4 +1,4 @@
-package Array;
+
 /*Printing the pair of Array 
 (2,4) (2,6) (2,8) (2,10) 
 (4,6) (4,8) (4,10) 

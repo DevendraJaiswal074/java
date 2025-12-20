@@ -1,4 +1,4 @@
-package Array;
+
 public class Reverse_Array {
 
     public static void reverse(int array[]) {  // function to swap number

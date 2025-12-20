@@ -1,4 +1,4 @@
-package Array;
+
 /*
 
 print the max value of an sub array 

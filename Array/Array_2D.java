@@ -1,4 +1,4 @@
-package Array;
+
 // Write a program to take input from user prints the value
 
 import java.util.*;

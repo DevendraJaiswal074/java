@@ -1,4 +1,4 @@
-package Array;
+
 public class PrefixSumArray {
 
     public static void SumArray(int arr[]){
